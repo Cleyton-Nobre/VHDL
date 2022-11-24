@@ -13,8 +13,8 @@ architecture arc of tb_tp2 is
 -- component declaration
 
 component tp2 is
-    port (rset, clkPadrao: in std_logic
-    --      HEX0, HEX1, HEX2, HEX3: out std_logic_vector (7 downto 0)
+    port (rset, clkPadrao: in std_logic;
+          HEX0, HEX1, HEX2, HEX3: out std_logic_vector (7 downto 0)
         );
 end component;
  
