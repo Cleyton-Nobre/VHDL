@@ -1,0 +1,10 @@
+v 4
+file . "tp2.vhd" "678957984dcfad84bc6ee89c4c217fbdb5733267" "20221126115927.877":
+  entity tp2 at 1( 0) + 0 on 99;
+  architecture hardware of tp2 at 12( 217) + 0 on 100;
+file . "divisor_clock.vhd" "7c7d3f720dd619d3e45c2c222cfda625e1ec1dd5" "20221126115927.844":
+  entity divisor_clock at 1( 0) + 0 on 97;
+  architecture behavioral of divisor_clock at 12( 224) + 0 on 98;
+file . "tb_tp2.vhd" "e1a21a40d07e29cee64c6ca39e70fbf015ea1709" "20221126115927.905":
+  entity tb_tp2 at 5( 207) + 0 on 101;
+  architecture arc of tb_tp2 at 12( 325) + 0 on 102;

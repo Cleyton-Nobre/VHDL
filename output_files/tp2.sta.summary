@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clkPadrao'
+Slack : -6.154
+TNS   : -103.199
+
+Type  : Slow 1200mV 85C Model Setup 'PS.B'
+Slack : -2.483
+TNS   : -43.014
+
+Type  : Slow 1200mV 85C Model Setup 'divisor_clock:x1|b'
+Slack : -0.686
+TNS   : -3.810
+
+Type  : Slow 1200mV 85C Model Hold 'divisor_clock:x1|b'
+Slack : 0.427
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'PS.B'
+Slack : 0.506
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clkPadrao'
+Slack : 1.010
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clkPadrao'
+Slack : -3.000
+TNS   : -40.881
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_clock:x1|b'
+Slack : -1.403
+TNS   : -26.657
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PS.B'
+Slack : 0.413
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clkPadrao'
+Slack : -5.536
+TNS   : -92.062
+
+Type  : Slow 1200mV 0C Model Setup 'PS.B'
+Slack : -2.325
+TNS   : -39.586
+
+Type  : Slow 1200mV 0C Model Setup 'divisor_clock:x1|b'
+Slack : -0.510
+TNS   : -2.502
+
+Type  : Slow 1200mV 0C Model Hold 'divisor_clock:x1|b'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'PS.B'
+Slack : 0.519
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clkPadrao'
+Slack : 0.935
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clkPadrao'
+Slack : -3.000
+TNS   : -40.881
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_clock:x1|b'
+Slack : -1.403
+TNS   : -26.657
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PS.B'
+Slack : 0.406
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clkPadrao'
+Slack : -1.995
+TNS   : -26.732
+
+Type  : Fast 1200mV 0C Model Setup 'PS.B'
+Slack : -0.459
+TNS   : -3.780
+
+Type  : Fast 1200mV 0C Model Setup 'divisor_clock:x1|b'
+Slack : -0.166
+TNS   : -0.166
+
+Type  : Fast 1200mV 0C Model Hold 'PS.B'
+Slack : 0.140
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divisor_clock:x1|b'
+Slack : 0.170
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clkPadrao'
+Slack : 0.388
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clkPadrao'
+Slack : -3.000
+TNS   : -34.543
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_clock:x1|b'
+Slack : -1.000
+TNS   : -19.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PS.B'
+Slack : 0.419
+TNS   : 0.000
+
+------------------------------------------------------------

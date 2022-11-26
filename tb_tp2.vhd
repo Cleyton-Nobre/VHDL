@@ -26,7 +26,7 @@ signal ENT_R : std_logic;
 begin
     -- geração do clock com periodo PERIODO
     ENT_CLK <= ENT_CLK_ENABLE and not ENT_CLK after PERIODO/2;
-    ENT_CLK_ENABLE <= '1', '0' after 999999*PERIODO; -- a simulação termina após transcorrer 20 períodos de clock.
+    ENT_CLK_ENABLE <= '1', '0' after 500000*PERIODO; -- a simulação termina após transcorrer 20 períodos de clock.
  
     -- instanciação do DUT, que nesse exemplo é um ffd
     DUT : tp2 port map(clkPadrao => ENT_CLK, rset => ENT_R);

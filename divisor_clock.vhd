@@ -25,7 +25,7 @@ process(clk50MHz, b)
 			else
 			   cnt := cnt + 1;
          end if;
-			if(cnt = 12499999) then
+			if(cnt = 12499) then
 				b <= not b;
 				cnt := 0;
 			end if;

@@ -26,13 +26,12 @@ begin
   begin
     if (rset = '1') then
         PS <= A;
+        HEX0 <= "11001111";
+        HEX1 <= "01111110";
+        HEX2 <= "01111110";
+        HEX3 <= "01111110";
     elsif (RISING_EDGE(clk)) then
         PS <= NS;
-    end if;
-  end process sync_proc;
-
-  comb_proc : process (clk)
-  begin
     case PS is
       when A =>  
         NS <=B;
@@ -142,7 +141,6 @@ begin
         HEX1 <= "11111111";
         HEX2 <= "11111111";
         HEX3 <= "00100101";
-
       when others =>
         NS <=A;
         HEX0 <= "11111111";
@@ -150,5 +148,6 @@ begin
         HEX2 <= "11111111";
         HEX3 <= "11111111";
     end case;
-  end process comb_proc;
+  end if;
+  end process sync_proc;
 end hardware;
