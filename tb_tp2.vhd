@@ -18,7 +18,7 @@ component tp2 is
         );
 end component;
  
-constant PERIODO : time := 20 us;
+constant PERIODO : time := 20 ns;
 signal ENT_CLK : std_logic := '0'; -- deve ser inicializado
 signal ENT_CLK_ENABLE: std_logic := '1'; -- Sinal de Enable do clock só para efeito de controle do fim da simulação
 signal ENT_R : std_logic;
@@ -26,7 +26,7 @@ signal ENT_R : std_logic;
 begin
     -- geração do clock com periodo PERIODO
     ENT_CLK <= ENT_CLK_ENABLE and not ENT_CLK after PERIODO/2;
-    ENT_CLK_ENABLE <= '1', '0' after 90000*PERIODO; -- a simulação termina após transcorrer 20 períodos de clock.
+    ENT_CLK_ENABLE <= '1', '0' after 999999*PERIODO; -- a simulação termina após transcorrer 20 períodos de clock.
  
     -- instanciação do DUT, que nesse exemplo é um ffd
     DUT : tp2 port map(clkPadrao => ENT_CLK, rset => ENT_R);
